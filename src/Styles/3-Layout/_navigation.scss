@@ -1,0 +1,174 @@
+header {
+  background-color: black;
+  width: 100vw;
+}
+nav {
+  align-items: center;
+  display: flex;
+  font-family: sans-serif;
+  min-height: 8vh;
+}
+.logo {
+  color: white;
+  display: none;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+// UL Styling
+.nav-list {
+  align-items: center;
+  background-color: #000;
+  clip-path: circle(0px at 0% -10%);
+  -webkit-clip-path: circle(0px at 0% -10%);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin-right: auto;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transition: all 1s ease-out;
+  width: 100%;
+}
+.nav-list-item {
+  margin: 0 auto 40px auto;
+}
+// Anchor Tag Styling
+.nav-link {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.open {
+  clip-path: circle(1500px at 0% -10%);
+  -webkit-clip-path: circle(1500px at 0% -10%);
+  pointer-events: all;
+}
+
+.nav-footer {
+  display: none;
+}
+@media screen and (min-width: $breakpoint-tablet) {
+  nav {
+    justify-content: space-around;
+  }
+  .hamburger {
+    display: none;
+  }
+  .nav-list {
+    align-items: initial;
+    clip-path: unset;
+    flex-direction: row;
+    height: initial;
+    justify-content: space-around;
+    pointer-events: all;
+    position: sticky;
+    top: initial;
+    width: 75%;
+    margin: 0;
+  }
+  .nav-list-item {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: $breakpoint-laptop) {
+  header {
+    height: 100vh;
+    width: unset;
+  }
+  nav {
+    align-items: unset;
+    flex-direction: column;
+    height: 100vh;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 0 20%;
+  }
+  .logo {
+    display: block;
+  }
+  .nav-list {
+    flex-direction: column;
+    justify-content: unset;
+    width: initial;
+  }
+  .nav-list-item {
+    margin: 0 0 2% 0;
+  }
+  .nav-footer {
+    display: block;
+  }
+  .nav-link {
+    font-size: 1em;
+    position: relative;
+    text-decoration: none;
+  }
+  .nav-link::before,
+  .nav-link:focus::before {
+    background-color: #fff;
+    bottom: 0;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+    visibility: hidden;
+    width: 100%;
+  }
+  .nav-link:hover::before,
+  .nav-link:focus::before {
+    transform: scaleX(1);
+    visibility: visible;
+  }
+}
+
+///////////////
+// FINAL Design for Desktops
+///////////////
+
+// header {
+//   background-color: black;
+//   height: 100vh;
+// }
+// nav {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100%;
+//   justify-content: center;
+//   text-align: left;
+//   padding: 0 20%;
+// }
+
+// .logo {
+//   font-size: 1.5em;
+//   text-transform: uppercase;
+//   letter-spacing: 3px;
+// }
+// .nav-list {
+//   margin: 40px 0;
+// }
+// a {
+//   text-decoration: none;
+//   position: relative;
+// }
+// a::before,
+// a:focus::before {
+//   content: '';
+//   position: absolute;
+//   width: 100%;
+//   height: 1px;
+//   bottom: 0;
+//   left: 0;
+//   background-color: #fff;
+//   visibility: hidden;
+//   transform: scaleX(0);
+//   transition: all 0.3s ease-in-out 0s;
+// }
+// a:hover::before,
+// a:focus::before {
+//   visibility: visible;
+//   transform: scaleX(1);
+// }

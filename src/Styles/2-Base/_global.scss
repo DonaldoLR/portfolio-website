@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish:ital@1&display=swap');
+body {
+  line-height: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+p {
+  color: #bbb;
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+a {
+  color: #bbb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.app {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
