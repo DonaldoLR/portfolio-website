@@ -17,24 +17,21 @@ const Navigation = () => {
               Home
             </NavLink>
           </li>
-
-          <li className='nav-list-item'>
+          {/* <li className='nav-list-item'>
             <NavLink to='/Portfolio' className='nav-link' onClick={toggleMenu}>
               Portfolio
             </NavLink>
-          </li>
-
+          </li> */}
           <li className='nav-list-item'>
             <NavLink to='/About' className='nav-link' onClick={toggleMenu}>
               About
             </NavLink>
           </li>
-
-          <li className='nav-list-item'>
+          {/* <li className='nav-list-item'>
             <NavLink to='/Blog' className='nav-link' onClick={toggleMenu}>
               Blog
             </NavLink>
-          </li>
+          </li> */}
           <li className='nav-list-item'>
             <NavLink to='/Contact' className='nav-link' onClick={toggleMenu}>
               Contact

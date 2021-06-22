@@ -79,6 +79,7 @@ nav {
     width: unset;
   }
   nav {
+    justify-content: center;
     align-items: unset;
     flex-direction: column;
     height: 100vh;
@@ -88,6 +89,7 @@ nav {
     display: block;
   }
   .nav-list {
+    margin: 30px 0;
     flex-direction: column;
     width: initial;
   }

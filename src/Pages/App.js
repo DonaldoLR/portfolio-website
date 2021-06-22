@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navigation from '../Components/Navigation';
 // importing pages
-import About from './About/About';
-import Blog from './Blog/Blog';
-import Contact from './Contact/Contact';
+// import About from './About/About';
+// import Blog from './Blog/Blog';
+// import Contact from './Contact/Contact';
 import Home from './Home/Home';
-import Portfolio from './Portfolio/Portfolio';
+// import Portfolio from './Portfolio/Portfolio';
 
 // importing font-awesome icons
 import { library } from '@fortawesome/fontawesome-svg-core';
