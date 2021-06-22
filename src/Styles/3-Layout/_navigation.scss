@@ -9,9 +9,8 @@ nav {
   min-height: 8vh;
 }
 .logo {
-  color: white;
   display: none;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -23,7 +22,7 @@ nav {
   -webkit-clip-path: circle(0px at 0% -10%);
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   margin-right: auto;
   pointer-events: none;
@@ -37,22 +36,23 @@ nav {
 }
 // Anchor Tag Styling
 .nav-link {
-  color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
 }
+.active {
+  color: #fff;
+}
 .open {
-  clip-path: circle(1500px at 0% -10%);
-  -webkit-clip-path: circle(1500px at 0% -10%);
+  clip-path: circle(1600px at 0% -10%);
+  -webkit-clip-path: circle(1600px at 0% -10%);
   pointer-events: all;
 }
-
 .nav-footer {
   display: none;
 }
 @media screen and (min-width: $breakpoint-tablet) {
   nav {
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .hamburger {
     display: none;
@@ -62,12 +62,12 @@ nav {
     clip-path: unset;
     flex-direction: row;
     height: initial;
-    justify-content: space-around;
+    margin: 0;
     pointer-events: all;
     position: sticky;
     top: initial;
     width: 75%;
-    margin: 0;
+    min-height: 0;
   }
   .nav-list-item {
     margin: 0 auto;
@@ -82,8 +82,6 @@ nav {
     align-items: unset;
     flex-direction: column;
     height: 100vh;
-    height: 100%;
-    justify-content: space-evenly;
     padding: 0 20%;
   }
   .logo {
@@ -91,7 +89,6 @@ nav {
   }
   .nav-list {
     flex-direction: column;
-    justify-content: unset;
     width: initial;
   }
   .nav-list-item {
@@ -101,7 +98,6 @@ nav {
     display: block;
   }
   .nav-link {
-    font-size: 1em;
     position: relative;
     text-decoration: none;
   }
@@ -124,51 +120,3 @@ nav {
     visibility: visible;
   }
 }
-
-///////////////
-// FINAL Design for Desktops
-///////////////
-
-// header {
-//   background-color: black;
-//   height: 100vh;
-// }
-// nav {
-//   display: flex;
-//   flex-direction: column;
-//   height: 100%;
-//   justify-content: center;
-//   text-align: left;
-//   padding: 0 20%;
-// }
-
-// .logo {
-//   font-size: 1.5em;
-//   text-transform: uppercase;
-//   letter-spacing: 3px;
-// }
-// .nav-list {
-//   margin: 40px 0;
-// }
-// a {
-//   text-decoration: none;
-//   position: relative;
-// }
-// a::before,
-// a:focus::before {
-//   content: '';
-//   position: absolute;
-//   width: 100%;
-//   height: 1px;
-//   bottom: 0;
-//   left: 0;
-//   background-color: #fff;
-//   visibility: hidden;
-//   transform: scaleX(0);
-//   transition: all 0.3s ease-in-out 0s;
-// }
-// a:hover::before,
-// a:focus::before {
-//   visibility: visible;
-//   transform: scaleX(1);
-// }

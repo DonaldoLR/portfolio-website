@@ -13,7 +13,7 @@ const Navigation = () => {
         </div>
         <ul className={displayMenu ? 'open nav-list' : 'nav-list'}>
           <li className='nav-list-item'>
-            <NavLink to='/' className='nav-link' onClick={toggleMenu}>
+            <NavLink exact to='/' className='nav-link' onClick={toggleMenu}>
               Home
             </NavLink>
           </li>
