@@ -1,0 +1,76 @@
+input,
+textarea {
+  display: block;
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: calc(100% - 20px);
+  margin-bottom: 30px;
+  padding: 10px;
+  // max-width: 320px;
+  resize: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: white;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: white;
+}
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: 'color 9999s ease-out, background-color 9999s ease-out';
+  -webkit-transition-delay: 9999s;
+  transition: 'color 9999s ease-out, background-color 9999s ease-out';
+  transition-delay: 9999s;
+}
+.alert {
+  padding: 10px;
+  max-width: 100%;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+}
+.alert-success {
+  text-align: center;
+  background: #006546;
+}
+.display-email-error {
+  margin-bottom: 0;
+}
+.alert-error {
+  text-align: left;
+  color: red;
+  padding: 5px 0 0 0;
+}
+@media screen and (min-width: $breakpoint-laptop) {
+  .contact-info-1 {
+    order: 2;
+  }
+}
