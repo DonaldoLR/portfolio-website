@@ -1,6 +1,7 @@
 header {
   background-color: black;
   width: 100vw;
+  position: fixed;
 }
 nav {
   align-items: center;
@@ -10,7 +11,7 @@ nav {
 }
 .logo {
   display: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -34,13 +35,8 @@ nav {
 .nav-list-item {
   margin: 0 auto 40px auto;
 }
-// Anchor Tag Styling
-.nav-link {
-  font-size: 1rem;
-  text-decoration: none;
-}
 .active {
-  color: #fff;
+  color: #54ecc4;
 }
 .open {
   clip-path: circle(1600px at 0% -10%);
@@ -64,19 +60,20 @@ nav {
     height: initial;
     margin: 0;
     pointer-events: all;
-    position: sticky;
+    position: static;
     top: initial;
     width: 75%;
     min-height: 0;
+    justify-content: space-between;
   }
   .nav-list-item {
-    margin: 0 auto;
+    margin: 0;
   }
 }
 @media screen and (min-width: $breakpoint-laptop) {
   header {
-    height: 100vh;
-    width: unset;
+    min-height: 100vh;
+    width: 20vw;
   }
   nav {
     justify-content: center;
@@ -87,6 +84,7 @@ nav {
   }
   .logo {
     display: block;
+    font-weight: 800;
   }
   .nav-list {
     margin: 30px 0;
