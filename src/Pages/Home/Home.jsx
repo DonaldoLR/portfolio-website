@@ -17,10 +17,10 @@ const Home = () => {
 						in Front-End Website Development but always open to learning
 						something new.
 					</p>
-					<NavLink to='/Portfolio' className='button'>
+					{/* 	<NavLink to='/Portfolio' className='button'>
 						<span>See my work</span>
-						{/* <FontAwesomeIcon icon='arrow-right' size='2x' /> */}
-					</NavLink>
+						<FontAwesomeIcon icon='arrow-right' size='2x' /> 
+					</NavLink> */}
 					<ul>
 						<li>
 							<a
