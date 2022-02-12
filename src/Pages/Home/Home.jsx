@@ -1,7 +1,7 @@
 import React from 'react';
 import avatar from '../../Assets/avatar.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 const Home = () => {
 	return (
 		<section className='landing'>
