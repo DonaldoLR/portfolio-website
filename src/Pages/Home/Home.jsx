@@ -14,7 +14,8 @@ const Home = () => {
 					<p>
 						Software Engineer located in North Carolina. Looking to help any
 						company, community, organizaition build awesome ideas. I specialize
-						in Front-End Website Development but down to learn something new.
+						in Front-End Website Development but always open to learning
+						something new.
 					</p>
 					<NavLink to='/Portfolio' className='button'>
 						<span>See my work</span>
