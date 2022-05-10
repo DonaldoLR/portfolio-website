@@ -1,4 +1,5 @@
 import React from 'react';
+import portrait from '../../Assets/portrait.png';
 import { NavLink } from 'react-router-dom';
 const About = () => {
 	return (
@@ -7,11 +8,11 @@ const About = () => {
 				<p className='section-tag'>About</p>
 				<h1 className='section-heading'>About Me!</h1>
 				<div className='grid grid-twoCol'>
-					<div className='about-profile-image'></div>
-					{/* <img
-            src='https://marketifythemes.com/html/tokyo/img/slider/1.jpg'
-            alt='Portrait'
-          ></img> */}
+					<img
+						id='portrait-photo'
+						alt='Portrait'
+						src={portrait}
+						width='100%'></img>
 					<div className='about-info-container'>
 						<h1>Donaldo Lara Reyes</h1>
 						<p>

@@ -24,11 +24,11 @@ const Navigation = () => {
               Portfolio
             </NavLink>
           </li> */}
-					<li className='nav-list-item'>
+					{/* <li className='nav-list-item'>
 						<NavLink to='/About' className='nav-link' onClick={toggleMenu}>
 							About
 						</NavLink>
-					</li>
+					</li> */}
 					{/* <li className='nav-list-item'>
             <NavLink to='/Blog' className='nav-link' onClick={toggleMenu}>
               Blog
