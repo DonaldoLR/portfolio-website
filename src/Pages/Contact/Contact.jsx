@@ -31,28 +31,27 @@ const Contact = () => {
 	};
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		if (isValidEmail) {
-			emailjs
-				.sendForm(
-					'service_pwn5wen',
-					'template_qjbiqah',
-					event.target,
-					'user_yhyZkgKtlVJj0ca02HLB3'
-				)
-				.then(
-					() => {
-						setFormData(initialFormData);
-						setDisplaySubmissionMessage(true);
-						setTimeout(() => {
-							setDisplaySubmissionMessage(false);
-						}, 3000);
-						// history.push('/Message-Sent');
-					},
-					(error) => {
-						console.log(error.text);
-					}
-				);
-		}
+
+		emailjs
+			.sendForm(
+				'service_pwn5wen',
+				'template_qjbiqah',
+				event.target,
+				'user_yhyZkgKtlVJj0ca02HLB3'
+			)
+			.then(
+				() => {
+					setFormData(initialFormData);
+					setDisplaySubmissionMessage(true);
+					setTimeout(() => {
+						setDisplaySubmissionMessage(false);
+					}, 3000);
+					// history.push('/Message-Sent');
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
 	};
 	const buttonStyle = {
 		display: displaySubmissionMessage ? 'block' : 'none',
@@ -106,7 +105,7 @@ const Contact = () => {
 								value={formData.name}
 							/>
 							<input
-								className={isValidEmail ? '' : 'display-email-error'}
+								//className={isValidEmail ? '' : 'display-email-error'}
 								type='email'
 								placeholder='Email:'
 								name='email'
@@ -115,7 +114,8 @@ const Contact = () => {
 							/>
 							<p
 								className='alert alert-error'
-								style={{ display: isValidEmail ? 'none' : 'block' }}>
+								//style={{ display: isValidEmail ? 'none' : 'block' }}
+							>
 								Invalid Email Address
 							</p>
 							<textarea
