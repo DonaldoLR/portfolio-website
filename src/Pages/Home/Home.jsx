@@ -14,10 +14,9 @@ const Home = () => {
 				<div className='landing-content'>
 					<h1>Donaldo Lara-Reyes</h1>
 					<p>
-						Software Engineer located in North Carolina. Looking to help any
+						Software Engineer located in North Carolina. Here to help any
 						company, community, organizaition build awesome ideas. I specialize
-						in Front-End Website Development but always open to learning
-						something new.
+						in Front-End Website Development.
 					</p>
 					{/* 	<NavLink to='/Portfolio' className='button'>
 						<span>See my work</span>
