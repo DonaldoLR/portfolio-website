@@ -1,6 +1,6 @@
 import React from 'react';
-// import avatar from '../../Assets/avatar.png';
-import avatar from '../../Assets/portrait.png';
+import avatar from '../../Assets/avatar.png';
+// import avatar from '../../Assets/portrait.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { NavLink } from 'react-router-dom';
