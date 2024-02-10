@@ -41,11 +41,11 @@ const Portfolio = () => {
                   Visit Site
                 </a> */}
 								<a
-									href='https://github.com/DonaldoLR/brooklyn-pizzeria'
+									href='https://lara-roofing.com/'
 									className='button'
 									target='_blank'
 									rel='noreferrer nofollow'>
-									View Code
+									View Website
 								</a>
 							</div>
 						</div>
