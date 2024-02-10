@@ -26,10 +26,8 @@ const Portfolio = () => {
 							<p className='results-p'>
 								<span className='goals-improvement'>Results:</span> Increased
 								organic site visitors by{' '}
-								<span className='goals-improvement'>200%</span>, revenue by{' '}
-								<span className='goals-improvement'>450%</span> and newsletter
-								opt ins by <span className='goals-improvement'>300%</span>
-								<span className='goals-improvement'></span>
+								<span className='goals-improvement'>200%</span>, and revenue by{' '}
+								<span className='goals-improvement'>450%</span>
 							</p>
 							<div className='project-links'>
 								{/* <a
