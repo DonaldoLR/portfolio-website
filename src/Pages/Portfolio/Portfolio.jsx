@@ -1,5 +1,5 @@
 import React from 'react';
-import websiteImage from '../../Assets/Lara-Roofing.png.png';
+import websiteImage from '../../Assets/Lara-Roofing.png';
 
 const Portfolio = () => {
 	return (
