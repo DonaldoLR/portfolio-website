@@ -1,5 +1,5 @@
 import React from 'react';
-import websiteImage from '../../Assets/Pizza.png';
+import websiteImage from '../../Assets/Lara-Roofing.png.png';
 
 const Portfolio = () => {
 	return (
@@ -15,14 +15,13 @@ const Portfolio = () => {
 					</div>
 					<div className='portfolio-website-information'>
 						<div className='portfolio-website-primary-info'>
-							<h2>1. Brooklyn Pizzeria</h2>
-							<p className='section-tag'>ReactJS, Bootstrap</p>
+							<h2>1. Lara's Roofing</h2>
+							<p className='section-tag'>Wordpress, Elementor</p>
 							<p>
-								Noyer is a Danish design company that crafts handmade quality
-								products in American walnut wood. The work I do for Noyer
-								consists of helping them building/maintaining their WordPress
-								shop with multiple language layers, and photography work such as
-								cropping and slight manipulations.{' '}
+								Lara's Roofing is a business that specializes in roof, siding,
+								and decking repairs. The work I did for Lara's Roofing consisted
+								of building & maintaining their wordpress page, and photography
+								work.{' '}
 							</p>
 							<p className='results-p'>
 								<span className='goals-improvement'>Results:</span> Increased
