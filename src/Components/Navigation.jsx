@@ -19,11 +19,11 @@ const Navigation = () => {
 							Home
 						</NavLink>
 					</li>
-					{/* <li className='nav-list-item'>
-            <NavLink to='/Portfolio' className='nav-link' onClick={toggleMenu}>
-              Portfolio
-            </NavLink>
-          </li> */}
+					<li className='nav-list-item'>
+						<NavLink to='/Portfolio' className='nav-link' onClick={toggleMenu}>
+							Portfolio
+						</NavLink>
+					</li>
 					{/* <li className='nav-list-item'>
 						<NavLink to='/About' className='nav-link' onClick={toggleMenu}>
 							About
@@ -52,7 +52,7 @@ const Navigation = () => {
 						<span className='hamburger-inner'></span>
 					</span>
 				</button>
-				<p className='nav-footer'>&copy; 2021 DONALDO</p>
+				<p className='nav-footer'>&copy; 2024 DONALDO</p>
 			</nav>
 		</header>
 	);

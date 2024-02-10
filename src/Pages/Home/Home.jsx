@@ -18,10 +18,10 @@ const Home = () => {
 						company, community, organizaition build awesome ideas. I specialize
 						in Front-End Website Development.
 					</p>
-					{/* 	<NavLink to='/Portfolio' className='button'>
+					<NavLink to='/Portfolio' className='button'>
 						<span>See my work</span>
-						<FontAwesomeIcon icon='arrow-right' size='2x' /> 
-					</NavLink> */}
+						<FontAwesomeIcon icon='arrow-right' size='2x' />
+					</NavLink>
 					<ul>
 						<li>
 							<a
