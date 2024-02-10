@@ -29,10 +29,10 @@ const App = () => {
 					<Route exact path='/'>
 						<Home />
 					</Route>
-					{/* <Route exact path='/Portfolio'>
-            <Portfolio />
-          </Route>
-          <Route exact path='/About'>
+					<Route exact path='/Portfolio'>
+						<Portfolio />
+					</Route>
+					{/* <Route exact path='/About'>
             <About />
           </Route>
           <Route exact path='/Blog'>
