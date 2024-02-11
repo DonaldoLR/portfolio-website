@@ -16,7 +16,7 @@ const Portfolio = () => {
 					<div className='portfolio-website-information'>
 						<div className='portfolio-website-primary-info'>
 							<h2>1. Lara's Roofing</h2>
-							<p className='section-tag'>Wordpress, Elementor</p>
+							<p className='section-tag'>Wordpress</p>
 							<p>
 								Lara's Roofing is a business that specializes in roof, siding,
 								and decking repairs. The work I did for Lara's Roofing consisted
@@ -24,20 +24,11 @@ const Portfolio = () => {
 								work.{' '}
 							</p>
 							<p className='results-p'>
-								<span className='goals-improvement'>Results:</span> Increased
-								organic site visitors by{' '}
-								<span className='goals-improvement'>200%</span>, and revenue by{' '}
-								<span className='goals-improvement'>450%</span>
+								<span className='goals-improvement'>Results:</span> Website
+								creation <span className='goals-improvement'>200%</span>, and
+								revenue by <span className='goals-improvement'>100%</span>
 							</p>
 							<div className='project-links'>
-								{/* <a
-                  href='#'
-                  className='button'
-                  target='_blank'
-                  rel='noreferrer nofollow'
-                >
-                  Visit Site
-                </a> */}
 								<a
 									href='https://lara-roofing.com/'
 									className='button'
