@@ -25,8 +25,9 @@ const Portfolio = () => {
 							</p>
 							<p className='results-p'>
 								<span className='goals-improvement'>Results:</span> Website
-								creation <span className='goals-improvement'>200%</span>, and
-								revenue by <span className='goals-improvement'>100%</span>
+								traffic <span className='goals-improvement'>200%</span>, and
+								increased revenue by{' '}
+								<span className='goals-improvement'>60%</span>
 							</p>
 							<div className='project-links'>
 								<a
