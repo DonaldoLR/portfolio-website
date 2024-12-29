@@ -1,8 +1,8 @@
 import React from 'react';
 import cloudwaysLogo from '../../Assets/cloudways-logo.png';
 import sitegroundLogo from '../../Assets/siteground-logo.png';
-import seopressLogo from '../../Assets/seopress-logo.png';
-import wprocketLogo from '../../Assets/wprocket-logo.svg';
+// import seopressLogo from '../../Assets/seopress-logo.png';
+// import wprocketLogo from '../../Assets/wprocket-logo.svg';
 
 import AffiliateCard from '../../Components/AffiliateCard';
 
