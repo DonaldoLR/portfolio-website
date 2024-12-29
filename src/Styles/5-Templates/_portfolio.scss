@@ -1,33 +1,33 @@
 .portfolio-project {
-  padding: 5rem 0;
+	padding: 5rem 0;
 
-  h2 {
-    margin-top: 0;
-  }
+	h2 {
+		margin-top: 0;
+	}
 }
 .goals-improvement {
-  color: #54ecc4;
+	color: $positive-green;
 }
 
 .project-links {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .portfolio-website-image {
-  align-self: center;
+	align-self: center;
 }
 .portfolio-project {
-  align-items: center;
+	align-items: center;
 }
 .results-p {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 @media screen and (min-width: $breakpoint-laptop) {
-  .portfolio-section {
-    padding-top: 100px;
-  }
-  .portfolio-website-information-secondary-info {
-    order: 1;
-  }
+	.portfolio-section {
+		padding-top: 100px;
+	}
+	.portfolio-website-information-secondary-info {
+		order: 1;
+	}
 }

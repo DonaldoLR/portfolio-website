@@ -8,6 +8,7 @@ import Navigation from '../Components/Navigation';
 import Contact from './Contact/Contact';
 import Home from './Home/Home';
 import Portfolio from './Portfolio/Portfolio';
+import Affiliates from './Affiliates/Affiliates';
 
 // importing font-awesome icons
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -18,6 +19,7 @@ import {
 	faArrowUp,
 	faArrowRight,
 } from '@fortawesome/free-solid-svg-icons';
+
 library.add(fab, faBars, faExternalLinkAlt, faArrowUp, faArrowRight);
 
 const App = () => {
@@ -40,6 +42,9 @@ const App = () => {
           </Route> */}
 					<Route exact path='/Contact'>
 						<Contact />
+					</Route>
+					<Route exact path='/Affiliates'>
+						<Affiliates />
 					</Route>
 				</Switch>
 			</div>

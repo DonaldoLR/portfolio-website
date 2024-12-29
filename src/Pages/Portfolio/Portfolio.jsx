@@ -11,7 +11,11 @@ const Portfolio = () => {
 				</h1>
 				<div className='portfolio-project grid grid-twoCol'>
 					<div className='portfolio-website-image'>
-						<img alt='Pizzeria' src={websiteImage} width='100%' />
+						<img
+							alt='Donaldo Roofing Website Screenshot'
+							src={websiteImage}
+							width='100%'
+						/>
 					</div>
 					<div className='portfolio-website-information'>
 						<div className='portfolio-website-primary-info'>
