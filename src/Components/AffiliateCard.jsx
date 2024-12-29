@@ -11,7 +11,7 @@ const AffiliateCard = ({ company, image, notes, link }) => {
 				<p className='affiliate-p'>
 					<span className='affiliate-features'>Notes:</span> {notes}
 				</p>
-				<div className='project-links'>
+				<div id='project-links'>
 					<a
 						href={link}
 						className='button'
