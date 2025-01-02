@@ -52,7 +52,7 @@ const Navigation = () => {
 						<span className='hamburger-inner'></span>
 					</span>
 				</button>
-				<p className='nav-footer'>&copy; 2024 DONALDO</p>
+				<p className='nav-footer'>&copy; 2025 DONALDO</p>
 			</nav>
 		</header>
 	);
