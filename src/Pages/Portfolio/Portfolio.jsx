@@ -1,6 +1,6 @@
 import React from 'react';
-import websiteImage from '../../Assets/Lara-Roofing.png';
-
+import websiteImageDonaldo from '../../Assets/Lara-Roofing.png';
+import websiteImageJen from '../../Assets/Virtual-Jen.png';
 const Portfolio = () => {
 	return (
 		<section className='portfolio-section'>
@@ -13,7 +13,7 @@ const Portfolio = () => {
 					<div className='portfolio-website-image'>
 						<img
 							alt='Donaldo Roofing Website Screenshot'
-							src={websiteImage}
+							src={websiteImageDonaldo}
 							width='100%'
 						/>
 					</div>
@@ -43,6 +43,36 @@ const Portfolio = () => {
 								</a>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div className='portfolio-project grid grid-twoCol'>
+					<div className='portfolio-website-information'>
+						<div className='portfolio-website-primary-info'>
+							<h2>2. Virtual Support by Jen</h2>
+							<p className='section-tag'>Wordpress</p>
+							<p>
+								Virtual Support by Jen is pretty straightforward; it's a company
+								that provides virtual assistance to other businesses. The work I
+								did for jennifer consisted of building their wordpress page, and
+								deployment of said website.
+							</p>
+							<div className='project-links'>
+								<a
+									href='https://virtualsupportbyjen.com/'
+									className='button'
+									target='_blank'
+									rel='noreferrer nofollow'>
+									View Website
+								</a>
+							</div>
+						</div>
+					</div>
+					<div className='portfolio-website-image'>
+						<img
+							alt='Donaldo Roofing Website Screenshot'
+							src={websiteImageJen}
+							width='100%'
+						/>
 					</div>
 				</div>
 			</div>
