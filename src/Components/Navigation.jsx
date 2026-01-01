@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 // import Logo from '../Assets/Logo With Name and Tagline.svg';
 const Navigation = () => {
+	const year = new Date().getFullYear();
 	const [displayMenu, setdisplayMenu] = useState(false);
 	const toggleMenu = () => {
 		setdisplayMenu(!displayMenu);
@@ -52,7 +53,7 @@ const Navigation = () => {
 						<span className='hamburger-inner'></span>
 					</span>
 				</button>
-				<p className='nav-footer'>&copy; 2025 DONALDO</p>
+				<p className='nav-footer'>&copy; {year} DONALDO</p>
 			</nav>
 		</header>
 	);
