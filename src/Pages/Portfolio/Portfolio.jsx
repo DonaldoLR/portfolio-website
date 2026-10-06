@@ -54,7 +54,7 @@ const Portfolio = () => {
 				<div className='portfolio-project grid grid-twoCol'>
 					<div className='portfolio-website-information'>
 						<div className='portfolio-website-primary-info'>
-							<h2>2. Virtual Support by Jen</h2>
+							<h2>Virtual Support by Jen</h2>
 							<p className='section-tag'>Wordpress</p>
 							<p>
 								Virtual Support by Jen is pretty straightforward; it's a company
