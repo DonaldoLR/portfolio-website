@@ -9,6 +9,7 @@ const Portfolio = () => {
 				<h1 className='section-heading'>
 					Hand-picked projects for you to see.
 				</h1>
+				{/*
 				<div className='portfolio-project grid grid-twoCol'>
 					<div className='portfolio-website-image'>
 						<img
@@ -17,6 +18,7 @@ const Portfolio = () => {
 							width='100%'
 						/>
 					</div>
+					
 					<div className='portfolio-website-information'>
 						<div className='portfolio-website-primary-info'>
 							<h2>1. Lara's Roofing</h2>
@@ -45,6 +47,7 @@ const Portfolio = () => {
 						</div>
 					</div>
 				</div>
+				*/}
 				<div className='portfolio-project grid grid-twoCol'>
 					<div className='portfolio-website-information'>
 						<div className='portfolio-website-primary-info'>
