@@ -1,10 +1,11 @@
+import websiteImageJen from '../../Assets/Virtual-Jen.png';
 {
 	/*}
 import React from 'react';
 import websiteImageDonaldo from '../../Assets/Lara-Roofing.png';
 */
 }
-import websiteImageJen from '../../Assets/Virtual-Jen.png';
+
 const Portfolio = () => {
 	return (
 		<section className='portfolio-section'>
@@ -76,7 +77,7 @@ const Portfolio = () => {
 					</div>
 					<div className='portfolio-website-image'>
 						<img
-							alt='Donaldo Roofing Website Screenshot'
+							alt='Jens Website Screenshot'
 							src={websiteImageJen}
 							width='100%'
 						/>
