@@ -1,10 +1,8 @@
 import websiteImageJen from '../../Assets/Virtual-Jen.png';
-{
-	/*}
+/*
 import React from 'react';
 import websiteImageDonaldo from '../../Assets/Lara-Roofing.png';
 */
-}
 
 const Portfolio = () => {
 	return (
